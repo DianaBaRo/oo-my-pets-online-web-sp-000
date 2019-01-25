@@ -69,7 +69,9 @@ class Owner
   end
 
   def list_pets
+    @pets.collect do |type, pets|
 
+    end
   end
 
 end
