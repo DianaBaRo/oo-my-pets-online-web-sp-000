@@ -22,10 +22,6 @@ class Owner
     self.all.clear
   end
 
-  def species()
-    @species = species
-  end
-
   def say_species
     "I am a #{@species}."
   end
