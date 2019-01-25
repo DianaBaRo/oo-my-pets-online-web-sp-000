@@ -69,9 +69,7 @@ class Owner
   end
 
   def list_pets
-    @pets.collect do |type, pets|
-
-    end
+    "I have #{@pets.[:fishes].length} fish, #{@pets.[:dogs].length} dog(s), and #{@pets.[:cats].length} cat(s).")
   end
 
 end
